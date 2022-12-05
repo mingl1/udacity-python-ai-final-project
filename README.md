@@ -1,1 +1,1 @@
-# udacity-python-ai-final-project
+# Create Image Classifier with Terminal Commands!
