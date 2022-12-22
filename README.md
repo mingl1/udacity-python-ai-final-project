@@ -1,6 +1,7 @@
 # Create Image Classifier with Terminal Commands!
 
-# 1. Train
+## 1. Train
+
 Train a new network on a data set with train.py
 
     Basic usage: python train.py data_directory
@@ -11,7 +12,7 @@ Train a new network on a data set with train.py
         Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
         Use GPU for training: python train.py data_dir --gpu
 
-2. Predict
+## 2. Predict
 
 Predict flower name from an image with predict.py along with the probability of that name. That is, you'll pass in a single image /path/to/image and return the flower name and class probability.
 
