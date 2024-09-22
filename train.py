@@ -33,7 +33,8 @@ data_dir = results.data_dir
 train_dir = data_dir + '/train'
 valid_dir = data_dir + '/valid'
 test_dir = data_dir + '/test'
-
+# ImageNet Dataset mean and std
+# Normalize using these values for models trained on ImageNet: ResNet, VGG
 mean = [0.485, 0.456, 0.406]
 std=[0.229, 0.224, 0.225]
 
